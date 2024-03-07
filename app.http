@@ -1,0 +1,33 @@
+POST http://localhost:3000/login/
+content-type:application/json 
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+###
+GET http://localhost:3000/states/    
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA5ODIyNjkyfQ.bphyyEtSMbbgODTdyiOo6hRyKd5HY6dUpLhDLQP3fVE 
+
+###
+GET http://localhost:3000/states/3/
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA5ODIyNjkyfQ.bphyyEtSMbbgODTdyiOo6hRyKd5HY6dUpLhDLQP3fVE 
+
+
+###
+GET http://localhost:3000/districts/ 
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA5ODIyNjkyfQ.bphyyEtSMbbgODTdyiOo6hRyKd5HY6dUpLhDLQP3fVE 
+
+
+
+###
+GET  http://localhost:3000/districts/5/ 
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA5ODIyNjkyfQ.bphyyEtSMbbgODTdyiOo6hRyKd5HY6dUpLhDLQP3fVE 
+
+
+###
+DELETE  http://localhost:3000/districts/5/ 
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzA5ODIyNjkyfQ.bphyyEtSMbbgODTdyiOo6hRyKd5HY6dUpLhDLQP3fVE 
+
+
+###
